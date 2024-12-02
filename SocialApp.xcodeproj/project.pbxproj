@@ -1,0 +1,594 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		73B4C34C179764503EDAB5D0 /* Pods_SocialApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF0EB0AE85F3227EE432AB17 /* Pods_SocialApp.framework */; };
+		BDB5B8492CFDCA4A00F18B67 /* CountryListBottomSheet.xib in Resources */ = {isa = PBXBuildFile; fileRef = BDB5B8482CFDCA4A00F18B67 /* CountryListBottomSheet.xib */; };
+		BDB5B84A2CFDCA4A00F18B67 /* CountryListBottomSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB5B8472CFDCA4A00F18B67 /* CountryListBottomSheet.swift */; };
+		BDB5B8502CFDD03100F18B67 /* CountryListCellTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BDB5B84F2CFDD03100F18B67 /* CountryListCellTableViewCell.xib */; };
+		BDB5B8512CFDD03100F18B67 /* CountryListCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB5B84E2CFDD03100F18B67 /* CountryListCellTableViewCell.swift */; };
+		BDB7B0692CF98EA700AD8280 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BDB7B0682CF98EA700AD8280 /* GoogleService-Info.plist */; };
+		BDB7B06E2CF99E4200AD8280 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB7B06C2CF99E4200AD8280 /* SignupViewController.swift */; };
+		BDB7B06F2CF99E4200AD8280 /* SignupViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BDB7B06D2CF99E4200AD8280 /* SignupViewController.xib */; };
+		BDB7B0722CF9A51400AD8280 /* customView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB7B0712CF9A51400AD8280 /* customView.swift */; };
+		BDB7B0752CF9AB1B00AD8280 /* Ex_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB7B0742CF9AB1B00AD8280 /* Ex_View.swift */; };
+		BDB7B0782CF9B60700AD8280 /* AppConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB7B0772CF9B60700AD8280 /* AppConstant.swift */; };
+		BDB7B07B2CF9B7CC00AD8280 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB7B07A2CF9B7CC00AD8280 /* APIManager.swift */; };
+		BDB7B07D2CF9CAB900AD8280 /* Ex_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB7B07C2CF9CAB900AD8280 /* Ex_ViewController.swift */; };
+		BDB7B0802CF9CB9500AD8280 /* HelperFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB7B07F2CF9CB9500AD8280 /* HelperFunction.swift */; };
+		BDB7B0832CF9CCA200AD8280 /* CommonFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB7B0822CF9CCA200AD8280 /* CommonFunction.swift */; };
+		BDBA13FE2CF887B7007B9970 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBA13FD2CF887B7007B9970 /* AppDelegate.swift */; };
+		BDBA14022CF887B7007B9970 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBA14012CF887B7007B9970 /* ViewController.swift */; };
+		BDBA14052CF887B7007B9970 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = BDBA14042CF887B7007B9970 /* Base */; };
+		BDBA14072CF887B9007B9970 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDBA14062CF887B9007B9970 /* Assets.xcassets */; };
+		BDBA140A2CF887B9007B9970 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = BDBA14092CF887B9007B9970 /* Base */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9FC6869D48C1C6E1F4AFC4D7 /* Pods-SocialApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocialApp.release.xcconfig"; path = "Target Support Files/Pods-SocialApp/Pods-SocialApp.release.xcconfig"; sourceTree = "<group>"; };
+		BDB5B8472CFDCA4A00F18B67 /* CountryListBottomSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryListBottomSheet.swift; sourceTree = "<group>"; };
+		BDB5B8482CFDCA4A00F18B67 /* CountryListBottomSheet.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CountryListBottomSheet.xib; sourceTree = "<group>"; };
+		BDB5B84E2CFDD03100F18B67 /* CountryListCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryListCellTableViewCell.swift; sourceTree = "<group>"; };
+		BDB5B84F2CFDD03100F18B67 /* CountryListCellTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CountryListCellTableViewCell.xib; sourceTree = "<group>"; };
+		BDB7B0682CF98EA700AD8280 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		BDB7B06A2CF9925D00AD8280 /* SocialApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SocialApp.entitlements; sourceTree = "<group>"; };
+		BDB7B06C2CF99E4200AD8280 /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
+		BDB7B06D2CF99E4200AD8280 /* SignupViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SignupViewController.xib; sourceTree = "<group>"; };
+		BDB7B0712CF9A51400AD8280 /* customView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customView.swift; sourceTree = "<group>"; };
+		BDB7B0742CF9AB1B00AD8280 /* Ex_View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ex_View.swift; sourceTree = "<group>"; };
+		BDB7B0772CF9B60700AD8280 /* AppConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstant.swift; sourceTree = "<group>"; };
+		BDB7B07A2CF9B7CC00AD8280 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		BDB7B07C2CF9CAB900AD8280 /* Ex_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ex_ViewController.swift; sourceTree = "<group>"; };
+		BDB7B07F2CF9CB9500AD8280 /* HelperFunction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelperFunction.swift; sourceTree = "<group>"; };
+		BDB7B0822CF9CCA200AD8280 /* CommonFunction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonFunction.swift; sourceTree = "<group>"; };
+		BDBA13FA2CF887B7007B9970 /* SocialApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SocialApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDBA13FD2CF887B7007B9970 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BDBA14012CF887B7007B9970 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BDBA14042CF887B7007B9970 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BDBA14062CF887B9007B9970 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BDBA14092CF887B9007B9970 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BDBA140B2CF887B9007B9970 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF0EB0AE85F3227EE432AB17 /* Pods_SocialApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SocialApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4D7DCCAC75E08E7970DF0AB /* Pods-SocialApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocialApp.debug.xcconfig"; path = "Target Support Files/Pods-SocialApp/Pods-SocialApp.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BDBA13F72CF887B6007B9970 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73B4C34C179764503EDAB5D0 /* Pods_SocialApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3E57CB1BC042A0230531CB47 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EF0EB0AE85F3227EE432AB17 /* Pods_SocialApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		744F14F5A16E9F83F6EB2603 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F4D7DCCAC75E08E7970DF0AB /* Pods-SocialApp.debug.xcconfig */,
+				9FC6869D48C1C6E1F4AFC4D7 /* Pods-SocialApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BDB5B8462CFDCA1800F18B67 /* Bottom Sheets */ = {
+			isa = PBXGroup;
+			children = (
+				BDB5B84D2CFDD00000F18B67 /* Controller */,
+				BDB5B84C2CFDCFF900F18B67 /* Model */,
+				BDB5B84B2CFDCFE500F18B67 /* View */,
+			);
+			path = "Bottom Sheets";
+			sourceTree = "<group>";
+		};
+		BDB5B84B2CFDCFE500F18B67 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BDB5B8482CFDCA4A00F18B67 /* CountryListBottomSheet.xib */,
+				BDB5B84F2CFDD03100F18B67 /* CountryListCellTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BDB5B84C2CFDCFF900F18B67 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BDB5B84D2CFDD00000F18B67 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BDB5B8472CFDCA4A00F18B67 /* CountryListBottomSheet.swift */,
+				BDB5B84E2CFDD03100F18B67 /* CountryListCellTableViewCell.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BDB7B06B2CF99E0100AD8280 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				BDB7B06C2CF99E4200AD8280 /* SignupViewController.swift */,
+				BDB7B06D2CF99E4200AD8280 /* SignupViewController.xib */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		BDB7B0702CF9A4ED00AD8280 /* Designable Class */ = {
+			isa = PBXGroup;
+			children = (
+				BDB7B0712CF9A51400AD8280 /* customView.swift */,
+			);
+			path = "Designable Class";
+			sourceTree = "<group>";
+		};
+		BDB7B0732CF9AB0000AD8280 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				BDB7B0742CF9AB1B00AD8280 /* Ex_View.swift */,
+				BDB7B07C2CF9CAB900AD8280 /* Ex_ViewController.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		BDB7B0762CF9B5EC00AD8280 /* AppConstant */ = {
+			isa = PBXGroup;
+			children = (
+				BDB7B0772CF9B60700AD8280 /* AppConstant.swift */,
+			);
+			path = AppConstant;
+			sourceTree = "<group>";
+		};
+		BDB7B0792CF9B7B800AD8280 /* APIManager */ = {
+			isa = PBXGroup;
+			children = (
+				BDB7B07A2CF9B7CC00AD8280 /* APIManager.swift */,
+			);
+			path = APIManager;
+			sourceTree = "<group>";
+		};
+		BDB7B07E2CF9CB7F00AD8280 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				BDB7B07F2CF9CB9500AD8280 /* HelperFunction.swift */,
+				BDB7B0822CF9CCA200AD8280 /* CommonFunction.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		BDBA13F12CF887B6007B9970 = {
+			isa = PBXGroup;
+			children = (
+				BDBA13FC2CF887B7007B9970 /* SocialApp */,
+				BDBA13FB2CF887B7007B9970 /* Products */,
+				744F14F5A16E9F83F6EB2603 /* Pods */,
+				3E57CB1BC042A0230531CB47 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BDBA13FB2CF887B7007B9970 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BDBA13FA2CF887B7007B9970 /* SocialApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BDBA13FC2CF887B7007B9970 /* SocialApp */ = {
+			isa = PBXGroup;
+			children = (
+				BDB7B07E2CF9CB7F00AD8280 /* Helper */,
+				BDB5B8462CFDCA1800F18B67 /* Bottom Sheets */,
+				BDB7B0702CF9A4ED00AD8280 /* Designable Class */,
+				BDB7B0732CF9AB0000AD8280 /* Extension */,
+				BDB7B0762CF9B5EC00AD8280 /* AppConstant */,
+				BDB7B0792CF9B7B800AD8280 /* APIManager */,
+				BDB7B06B2CF99E0100AD8280 /* Auth */,
+				BDB7B06A2CF9925D00AD8280 /* SocialApp.entitlements */,
+				BDBA13FD2CF887B7007B9970 /* AppDelegate.swift */,
+				BDBA14012CF887B7007B9970 /* ViewController.swift */,
+				BDBA14032CF887B7007B9970 /* Main.storyboard */,
+				BDBA14062CF887B9007B9970 /* Assets.xcassets */,
+				BDBA14082CF887B9007B9970 /* LaunchScreen.storyboard */,
+				BDBA140B2CF887B9007B9970 /* Info.plist */,
+				BDB7B0682CF98EA700AD8280 /* GoogleService-Info.plist */,
+			);
+			path = SocialApp;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BDBA13F92CF887B6007B9970 /* SocialApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDBA140E2CF887B9007B9970 /* Build configuration list for PBXNativeTarget "SocialApp" */;
+			buildPhases = (
+				305FB47A554EE7D27B370921 /* [CP] Check Pods Manifest.lock */,
+				BDBA13F62CF887B6007B9970 /* Sources */,
+				BDBA13F72CF887B6007B9970 /* Frameworks */,
+				BDBA13F82CF887B6007B9970 /* Resources */,
+				F8606725B79EC607A8F5E127 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SocialApp;
+			productName = SocialApp;
+			productReference = BDBA13FA2CF887B7007B9970 /* SocialApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BDBA13F22CF887B6007B9970 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					BDBA13F92CF887B6007B9970 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = BDBA13F52CF887B6007B9970 /* Build configuration list for PBXProject "SocialApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BDBA13F12CF887B6007B9970;
+			productRefGroup = BDBA13FB2CF887B7007B9970 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BDBA13F92CF887B6007B9970 /* SocialApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BDBA13F82CF887B6007B9970 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDBA14072CF887B9007B9970 /* Assets.xcassets in Resources */,
+				BDB7B06F2CF99E4200AD8280 /* SignupViewController.xib in Resources */,
+				BDB5B8502CFDD03100F18B67 /* CountryListCellTableViewCell.xib in Resources */,
+				BDB7B0692CF98EA700AD8280 /* GoogleService-Info.plist in Resources */,
+				BDBA140A2CF887B9007B9970 /* Base in Resources */,
+				BDBA14052CF887B7007B9970 /* Base in Resources */,
+				BDB5B8492CFDCA4A00F18B67 /* CountryListBottomSheet.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		305FB47A554EE7D27B370921 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SocialApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F8606725B79EC607A8F5E127 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SocialApp/Pods-SocialApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SocialApp/Pods-SocialApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SocialApp/Pods-SocialApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BDBA13F62CF887B6007B9970 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDB5B8512CFDD03100F18B67 /* CountryListCellTableViewCell.swift in Sources */,
+				BDB7B0832CF9CCA200AD8280 /* CommonFunction.swift in Sources */,
+				BDB7B07B2CF9B7CC00AD8280 /* APIManager.swift in Sources */,
+				BDB7B0722CF9A51400AD8280 /* customView.swift in Sources */,
+				BDB5B84A2CFDCA4A00F18B67 /* CountryListBottomSheet.swift in Sources */,
+				BDB7B0752CF9AB1B00AD8280 /* Ex_View.swift in Sources */,
+				BDB7B0782CF9B60700AD8280 /* AppConstant.swift in Sources */,
+				BDBA14022CF887B7007B9970 /* ViewController.swift in Sources */,
+				BDB7B0802CF9CB9500AD8280 /* HelperFunction.swift in Sources */,
+				BDB7B07D2CF9CAB900AD8280 /* Ex_ViewController.swift in Sources */,
+				BDBA13FE2CF887B7007B9970 /* AppDelegate.swift in Sources */,
+				BDB7B06E2CF99E4200AD8280 /* SignupViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BDBA14032CF887B7007B9970 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDBA14042CF887B7007B9970 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BDBA14082CF887B9007B9970 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDBA14092CF887B9007B9970 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BDBA140C2CF887B9007B9970 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BDBA140D2CF887B9007B9970 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BDBA140F2CF887B9007B9970 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4D7DCCAC75E08E7970DF0AB /* Pods-SocialApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SocialApp/SocialApp.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = C4564T77CB;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SocialApp/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Your current location is used to show you nearby users.";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "Your current location is used to show you nearby users.";
+				INFOPLIST_KEY_NSLocationUsageDescription = "Your current location is used to show you nearby users.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Your current location is used to show you nearby users.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.kardder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = kardder_dev;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BDBA14102CF887B9007B9970 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9FC6869D48C1C6E1F4AFC4D7 /* Pods-SocialApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SocialApp/SocialApp.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = C4564T77CB;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SocialApp/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Your current location is used to show you nearby users.";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "Your current location is used to show you nearby users.";
+				INFOPLIST_KEY_NSLocationUsageDescription = "Your current location is used to show you nearby users.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Your current location is used to show you nearby users.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.kardder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = kardder_dev;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BDBA13F52CF887B6007B9970 /* Build configuration list for PBXProject "SocialApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDBA140C2CF887B9007B9970 /* Debug */,
+				BDBA140D2CF887B9007B9970 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDBA140E2CF887B9007B9970 /* Build configuration list for PBXNativeTarget "SocialApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDBA140F2CF887B9007B9970 /* Debug */,
+				BDBA14102CF887B9007B9970 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BDBA13F22CF887B6007B9970 /* Project object */;
+}
